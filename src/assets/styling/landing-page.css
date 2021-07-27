@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.content{
+   width:100%; 
+   font-family: 'DM Sans', sans-serif;
+   padding:0;
+   margin:0;
+   display:flex;
+   flex-direction:column;
+   margin-bottom: 2rem;
+}
+.header{
+    width:100%;
+    background-color:#292929;
+    height: 8.75rem;
+    display: flex;
+    align-items:center;
+    padding:0;
+    margin:0;
+    /* padding-left: 4.813rem; */
+}
+.site-logo{
+    margin-left:4.813rem;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 0.875rem 1.19rem 0.816rem 1.071rem;
+}
+.logo-svg{
+    height:2.06rem;
+    width:9.79rem;
+}
+.intro{
+    width: 100%;
+    height: 34.375rem;
+    background-image: url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top:0;
+    background-position: center;
+}
+.intro-box{
+    max-width:30.625rem;
+    height:17.625rem;
+    margin-top: 6.813rem;
+    margin-left:4.813rem;
+    text-align: start;
+    padding:0;
+}
+.intro-text{
+    font-weight:700;
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    line-height:5.86rem;
+    margin: 0 auto;
+}
+.search-container{
+    padding-top: 3.5rem;
+    margin: 0 4.8125rem;
+}
+.search-input{
+    width:100%;
+    height:3.375rem;
+    border: 1px solid #000000;
+    font-size: 1.5rem;
+    margin:0;
+}
+.search-text{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.953rem;
+    padding: 0.25rem 0;
+    margin:0;
+}
+.movie-container{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+
+@media only screen
+
+and (max-device-width: 321px)
+{
+    .header{
+        height: 4.1875rem;
+        justify-content:center;
+        padding-left: 0;
+    }
+    .site-logo{
+        padding: 0.489rem 0.677rem 0.457rem 0.605rem;
+        margin-left:0;
+    }
+    .logo-svg{
+        height:1.15rem;
+        width:5.48rem;
+    }
+    .intro{
+        height: 16.063rem;
+    }
+    .intro-box{
+        max-width:17.06rem;
+        min-height:4.5rem;
+        margin:auto;
+        margin-top: 6.125rem;
+        padding-left: 0;
+        text-align: center;
+    }
+    .intro-text{
+        font-size: 1.75rem;
+        line-height:2.279rem;
+    }
+    .search-container{
+        margin: 0 1.75rem;
+    }
+    .search-input{
+        height: 2.125rem;
+        font-size: 1rem;
+    }
+    .search-text{
+        font-size: 1rem;
+        line-height: 1.302rem;
+    }
+}
+
+ /* Added an additional break point to account for the fixed font size and prevent white spaces */
+@media only screen
+
+and (min-device-width: 322px)
+
+and (max-device-width: 380px)
+{
+    .intro-text{
+        font-size: 2.75rem;
+        line-height:3.279rem;
+    }
+    .search-container{
+        margin: 0 1.75rem;
+    }
+}
+
+@media only screen
+
+and (max-device-width: 834px)
+{
+     .header{
+        width:100%;
+        justify-content:center;
+    }
+    .site-logo{
+        margin-left:0;
+    }
+    .intro{
+        justify-content:center;
+    }
+    .intro-box{
+        margin:auto;
+        margin-top: 6.813rem;
+        text-align: center;
+    }
+}

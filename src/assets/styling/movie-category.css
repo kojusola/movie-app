@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+.movies{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 2.065rem;
+    margin-bottom: 2.065rem;
+    font-weight:400;
+    overflow: hidden;
+    margin:0;
+}
+.movie-category{
+    font-size:1.5rem;
+    line-height:1.953rem;
+    margin-left:4.813rem;
+}
+.movie-collections{
+    margin-left:4.813rem;
+    overflow: hidden;
+}
+.movie-collection{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    overflow-x: auto;
+    margin-Left:-1.4375rem;
+    padding-right: 1.4375rem;
+    overflow-x:auto;
+}
+.single-movie{
+    background-color: #000000;
+    width:18.75rem;
+    height:18.75rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius:12px;
+    margin-Left:1.4375rem;
+}
+.single-movie-inner{
+    width:17.5rem;
+    height:17.5rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.movie-name{
+    font-size:1.5rem;
+    line-height:1.953rem;
+    color: #FFFFFF; 
+    text-align:center;
+}
+
+
+@media only screen
+
+and (max-device-width: 321px)
+{
+    .movie-category{
+        margin-left:1.75rem;
+        font-size:1.125rem;
+        line-height:1.5275rem;
+    }
+    .movie-collections{
+        margin-left:1.75rem;
+    }
+    .movie-collection{
+        margin-Left:-0.813rem;
+        padding-right: 0.813rem;
+    }
+    .single-movie{
+        width:12.5rem;
+        height:12.5rem;
+        margin-Left:0.813rem;
+    }
+    .single-movie-inner{
+        width:11.25rem;
+        height:11.25rem;
+    }
+    .movie-name{
+        font-size:1.125rem;
+        line-height:1.465rem;    
+    }
+}
+
+@media only screen
+
+and (max-device-width: 380px)
+{
+    .movie-category{
+        margin-left:1.75rem;
+        font-size:1.125rem;
+        line-height:1.5275rem;
+    }
+    .movie-collections{
+        margin-left:1.75rem;
+    }
+    .movie-collection{
+        margin-Left:-0.813rem;
+        padding-right: 0.813rem;
+    }
+    .single-movie{
+        width:12.5rem;
+        height:12.5rem;
+        margin-Left:0.813rem;
+    }
+}
