@@ -14,7 +14,7 @@ export default function LandingPage() {
     useEffect( ()=>{
         setIsLoading(true)
         const getMovieData = async () => {
-            await fetch(`http://www.omdbapi.com/?apikey=ab27577e&s=${query}&page=${pageNumber}`)
+            await fetch(`https://www.omdbapi.com/?apikey=ab27577e&s=${query}&page=${pageNumber}`)
             .then((success) => 
             success.json()
             )
