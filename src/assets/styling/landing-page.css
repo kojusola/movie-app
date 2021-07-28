@@ -137,6 +137,9 @@ and (max-device-width: 380px)
     .search-container{
         margin: 0 1.75rem;
     }
+    .intro{
+        height: 22rem;
+    }
 }
 
 @media only screen
